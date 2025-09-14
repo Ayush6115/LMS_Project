@@ -8,7 +8,7 @@ import { useAuth } from "../context/AuthContext";
 function Login() {
   const navigate = useNavigate();
   const { t } = useTranslation();
-  const { login } = useAuth(); // get login method from context
+  const { login } = useAuth();
 
   const [formData, setFormData] = useState({ email: "", password: "" });
 
@@ -22,10 +22,10 @@ function Login() {
       const response = await api.post("/api/auth/login", formData);
 
       const token = response.data.token;
-      login(token); // store token + update context
+      login(token);
 
       // role-based redirect
-      const decoded = JSON.parse(atob(token.split(".")[1])); // decode payload quickly
+      const decoded = JSON.parse(atob(token.split(".")[1]));
       if (decoded.role === "Student") navigate("/student/dashboard");
       else if (decoded.role === "Teacher") navigate("/teacher/dashboard");
       else if (decoded.role === "Admin") navigate("/admin/dashboard");

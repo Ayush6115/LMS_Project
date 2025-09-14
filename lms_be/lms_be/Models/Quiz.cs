@@ -12,7 +12,7 @@ namespace lms_be.Models
         [Required]
         public int CourseId { get; set; }
 
-        public Course Course { get; set; } // Navigation property
+        public Course Course { get; set; }
 
         [Required]
         public string Title { get; set; } = string.Empty;
@@ -22,11 +22,9 @@ namespace lms_be.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
-        // Optional
         public DateTime? DueDate { get; set; }
         public int DurationMinutes { get; set; } = 0;
 
-        // NEW: submissions for this quiz
         public ICollection<QuizSubmission> Submissions { get; set; } = new List<QuizSubmission>();
     }
 }

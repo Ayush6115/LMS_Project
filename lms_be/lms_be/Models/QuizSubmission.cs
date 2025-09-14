@@ -20,7 +20,6 @@ namespace lms_be.Models
         [NotMapped]
         public Dictionary<int, int> Answers { get; set; } = new();
 
-        // Store dictionary as JSON in DB
         public string AnswersJson
         {
             get => JsonSerializer.Serialize(Answers);

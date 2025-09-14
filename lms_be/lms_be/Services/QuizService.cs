@@ -20,7 +20,6 @@ namespace lms_be.Services
 
         public Quiz CreateQuiz(int teacherId, int courseId, QuizDto dto)
         {
-            // Ensure teacher owns the course
             var course = _context.Courses.FirstOrDefault(c => c.Id == courseId && c.TeacherId == teacherId);
             if (course == null) return null;
 

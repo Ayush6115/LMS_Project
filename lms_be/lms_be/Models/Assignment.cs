@@ -14,7 +14,7 @@ namespace lms_be.Models
         [ForeignKey("Course")]
         public int CourseId { get; set; }
 
-        public Course Course { get; set; }  // Navigation property
+        public Course Course { get; set; } 
 
         [Required]
         public string Title { get; set; } = string.Empty;
@@ -27,7 +27,6 @@ namespace lms_be.Models
 
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
-        // NEW: navigation property for submissions
         public ICollection<AssignmentSubmission> Submissions { get; set; } = new List<AssignmentSubmission>();
     }
 }

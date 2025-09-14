@@ -170,8 +170,7 @@
               "RelativeToolTip": "lms_be\\Migrations\\20250914123504_UpdateModels.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T12:35:46.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T12:35:46.367Z"
             },
             {
               "$type": "Document",
@@ -207,8 +206,7 @@
               "RelativeToolTip": "lms_be\\DTOs\\AssignmentSubmissionDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:08:04.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:08:04.634Z"
             },
             {
               "$type": "Document",
@@ -232,8 +230,7 @@
               "RelativeToolTip": "lms_be\\Models\\AssignmentSubmission.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:07:07.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:07:07.906Z"
             },
             {
               "$type": "Document",
@@ -245,8 +242,7 @@
               "RelativeToolTip": "lms_be\\DTOs\\QuizQuestionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T05:26:55.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T05:26:55.726Z"
             },
             {
               "$type": "Document",
@@ -258,8 +254,7 @@
               "RelativeToolTip": "lms_be\\DTOs\\QuizDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T05:25:29.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T05:25:29.979Z"
             },
             {
               "$type": "Document",
@@ -271,8 +266,7 @@
               "RelativeToolTip": "lms_be\\DTOs\\AssignmentDto.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T04:48:25.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T04:48:25.218Z"
             },
             {
               "$type": "Document",
@@ -308,8 +302,7 @@
               "RelativeToolTip": "lms_be\\Services\\QuizService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAlwDAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T04:04:46.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T04:04:46.698Z"
             },
             {
               "$type": "Document",
@@ -321,8 +314,7 @@
               "RelativeToolTip": "lms_be\\Services\\AssignmentService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAawCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T04:03:53.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T04:03:53.199Z"
             },
             {
               "$type": "Document",
@@ -346,8 +338,7 @@
               "RelativeToolTip": "lms_be\\Models\\Quiz.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAxwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T03:57:52.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T03:57:52.441Z"
             },
             {
               "$type": "Document",
@@ -359,8 +350,7 @@
               "RelativeToolTip": "lms_be\\Models\\Assignment.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAwBUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T03:56:31.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T03:56:31.251Z"
             },
             {
               "$type": "Document",
@@ -420,8 +410,7 @@
               "RelativeToolTip": "lms_be\\Controllers\\StudentCoursesController.cs",
               "ViewState": "AgIAAMwAAAAAAAAAAAAcwNcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T12:51:59.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T12:51:59.605Z"
             },
             {
               "$type": "Document",
@@ -446,8 +435,7 @@
               "RelativeToolTip": "lms_be\\Services\\ICourseService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAiwBkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:56:00.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T13:56:00.65Z"
             },
             {
               "$type": "Document",
@@ -459,8 +447,7 @@
               "RelativeToolTip": "lms_be\\Services\\CourseService.cs",
               "ViewState": "AgIAAN0AAAAAAAAAAAAswOQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:54:28.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T13:54:28.622Z"
             },
             {
               "$type": "Document",
@@ -472,8 +459,7 @@
               "RelativeToolTip": "lms_be\\Models\\Course.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA+wBkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:53:30.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T13:53:30.898Z"
             },
             {
               "$type": "Document",
@@ -485,8 +471,7 @@
               "RelativeToolTip": "lms_be\\DTOs\\CourseDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:52:38.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T13:52:38.535Z"
             },
             {
               "$type": "Document",
@@ -618,8 +603,7 @@
               "RelativeToolTip": "lms_be\\Data\\LmsDbContext.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAswGUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T01:26:07.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T01:26:07.335Z"
             }
           ]
         }

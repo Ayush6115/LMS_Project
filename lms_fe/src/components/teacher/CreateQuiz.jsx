@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import api from "../../api"; // Make sure your axios instance is configured
+import api from "../../api";
 import "./CreateQuiz.css";
 
 function CreateQuiz({ onQuizCreated }) {
@@ -50,7 +50,7 @@ function CreateQuiz({ onQuizCreated }) {
 
       const payload = {
         title,
-        questions, // send as-is; backend should handle question structure
+        questions,
       };
 
       const res = await api.post(

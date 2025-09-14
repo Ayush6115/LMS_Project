@@ -12,7 +12,6 @@ function StudentWidgets() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Add token from localStorage if backend requires authentication
         const token = localStorage.getItem("token");
         const config = { headers: { Authorization: `Bearer ${token}` } };
 
@@ -22,7 +21,10 @@ function StudentWidgets() {
         const assignmentsRes = await api.get("/student/assignments", config);
         setAssignments(assignmentsRes.data);
 
-        const notificationsRes = await api.get("/student/notifications", config);
+        const notificationsRes = await api.get(
+          "/student/notifications",
+          config
+        );
         setNotifications(notificationsRes.data);
       } catch (error) {
         console.error("Error fetching student data:", error);
@@ -50,7 +52,8 @@ function StudentWidgets() {
         <ul>
           {assignments.map((assignment) => (
             <li key={assignment.id}>
-              {assignment.title} - {t("studentWidgets.due")}: {assignment.dueDate}
+              {assignment.title} - {t("studentWidgets.due")}:{" "}
+              {assignment.dueDate}
             </li>
           ))}
         </ul>

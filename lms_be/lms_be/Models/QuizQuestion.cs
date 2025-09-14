@@ -17,8 +17,8 @@ namespace lms_be.Models
         [Required]
         public int CorrectAnswer { get; set; }
 
-        // Foreign key
         public int QuizId { get; set; }
+
         public Quiz Quiz { get; set; }
     }
 }

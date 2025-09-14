@@ -12,7 +12,7 @@ namespace lms_be.Models
         public string Title { get; set; } = string.Empty;
 
         [Required]
-        public string Content { get; set; } = string.Empty; // HTML content
+        public string Content { get; set; } = string.Empty;
 
         public string? Thumbnail { get; set; }
 

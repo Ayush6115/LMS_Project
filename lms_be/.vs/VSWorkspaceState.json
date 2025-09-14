@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\lms_be",
+    "\\lms_be\\Models",
+    "\\lms_be\\obj",
+    "\\lms_be\\Repositories",
+    "\\lms_be\\Services"
+  ],
+  "SelectedNode": "\\lms_be\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

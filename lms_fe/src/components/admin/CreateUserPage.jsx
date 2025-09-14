@@ -26,7 +26,6 @@ function CreateUserPage() {
 
       const response = await api.post("/api/auth/create-user", formData, config);
 
-      // Use translation with dynamic name
       alert(
         response.data.message ||
           t("createUser.success", { name: response.data.user.name })

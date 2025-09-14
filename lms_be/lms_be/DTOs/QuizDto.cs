@@ -13,8 +13,8 @@ namespace lms_be.DTOs
         [Required]
         public List<QuizQuestionDto> Questions { get; set; } = new List<QuizQuestionDto>();
 
-        // NEW: student submission info
-        public int? Submission { get; set; }  // Score
+        public int? Submission { get; set; }
+
         public bool IsSubmitted { get; set; } = false;
     }
 }

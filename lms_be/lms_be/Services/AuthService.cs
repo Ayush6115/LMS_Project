@@ -86,8 +86,6 @@ namespace lms_be.Services
             var user = _userRepository.GetById(id);
             if (user == null) return false;
 
-            // TODO: delete related data (enrollments, reports, submissions) if needed
-
             _userRepository.Remove(user);
             return true;
         }

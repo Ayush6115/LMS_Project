@@ -15,8 +15,8 @@ namespace lms_be.DTOs
         [Required]
         public DateTime DueDate { get; set; }
 
-        // NEW: student submission info
-        public string? Submission { get; set; }  // Submitted content
+        public string? Submission { get; set; }
+
         public bool IsSubmitted { get; set; } = false;
     }
 }

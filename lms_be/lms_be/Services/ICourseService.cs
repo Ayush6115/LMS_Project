@@ -13,7 +13,6 @@ namespace lms_be.Services
         CourseDto? UpdateCourse(int teacherId, int courseId, CourseDto dto);
         bool DeleteCourse(int teacherId, int courseId);
 
-        // NEW: Get student submissions for a course (teacher)
         IEnumerable<AssignmentSubmissionDto> GetStudentAssignmentsForTeacher(int teacherId, int courseId);
 
         // -------------------- STUDENT METHODS --------------------
@@ -22,7 +21,6 @@ namespace lms_be.Services
         IEnumerable<CourseDto> GetAllCourses();
 
         // -------------------- NEW METHOD FOR STUDENT COURSE DETAIL --------------------
-        // Returns course with assignments and quizzes, including student's submissions and status
         CourseDto? GetCourseWithDetailsForStudent(int courseId, int studentId);
     }
 }

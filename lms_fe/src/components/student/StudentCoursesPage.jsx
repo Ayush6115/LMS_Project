@@ -12,7 +12,6 @@ function StudentCoursesPage() {
   const [activeTab, setActiveTab] = useState("all");
   const navigate = useNavigate();
 
-  // Fetch all courses and enrolled courses IDs on mount
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -42,13 +41,11 @@ function StudentCoursesPage() {
   };
 
   const handleCourseClick = (courseId) => {
-    // Navigate to StudentDetailPage for enrolled courses
     navigate(`/student/courses/${courseId}`);
   };
 
   if (loading) return <p>{t("studentCourses.loading")}</p>;
 
-  // Determine which courses to display based on active tab
   const displayedCourses =
     activeTab === "all"
       ? allCourses
@@ -100,7 +97,7 @@ function StudentCoursesPage() {
                 {activeTab === "all" && (
                   <button
                     onClick={(e) => {
-                      e.stopPropagation(); // prevent card click
+                      e.stopPropagation();
                       handleEnrollClick(course.id);
                     }}
                     disabled={alreadyEnrolled}

@@ -167,12 +167,10 @@ namespace lms_be.Controllers
         {
             var teacherId = int.Parse(User.FindFirst("id")?.Value ?? "0");
 
-            // Get all assignments for this course belonging to the teacher
             var assignments = _assignmentService.GetAssignmentsByCourse(teacherId, courseId);
             if (assignments == null || !assignments.Any())
-                return Ok(new List<object>()); // no assignments yet
+                return Ok(new List<object>());
 
-            // Get submissions
             var submissions = assignments
                 .SelectMany(a => a.Submissions.Select(s => new
                 {

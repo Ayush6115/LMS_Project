@@ -9,22 +9,20 @@ namespace lms_be.Data
     {
         public LmsDbContext(DbContextOptions<LmsDbContext> options) : base(options) { }
 
-        // Users
         public DbSet<User> Users { get; set; }
 
-        // Courses
         public DbSet<Course> Courses { get; set; }
 
-        // Course Enrollments
         public DbSet<CourseEnrollment> CourseEnrollments { get; set; }
 
-        // Teacher Features
         public DbSet<Assignment> Assignments { get; set; }
+
         public DbSet<Quiz> Quizzes { get; set; }
+
         public DbSet<QuizQuestion> QuizQuestions { get; set; }
 
-        // Student submissions
         public DbSet<AssignmentSubmission> AssignmentSubmissions { get; set; }
+
         public DbSet<QuizSubmission> QuizSubmissions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,7 +59,7 @@ namespace lms_be.Data
                 .HasOne(s => s.Student)
                 .WithMany(u => u.AssignmentSubmissions)
                 .HasForeignKey(s => s.StudentId)
-                .OnDelete(DeleteBehavior.Restrict); // prevent multiple cascade paths
+                .OnDelete(DeleteBehavior.Restrict);
 
             // -------------------- QUIZZES --------------------
             modelBuilder.Entity<Quiz>()
@@ -81,7 +79,7 @@ namespace lms_be.Data
                 .HasOne(s => s.Student)
                 .WithMany(u => u.QuizSubmissions)
                 .HasForeignKey(s => s.StudentId)
-                .OnDelete(DeleteBehavior.Restrict); // prevent multiple cascade paths
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Store Answers dictionary as JSON
             modelBuilder.Entity<QuizSubmission>()
@@ -98,7 +96,6 @@ namespace lms_be.Data
                 .HasForeignKey(q => q.QuizId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Convert List<string> Options to JSON with proper ValueComparer
             modelBuilder.Entity<QuizQuestion>()
                 .Property(q => q.Options)
                 .HasConversion(

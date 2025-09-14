@@ -11,7 +11,6 @@ function PaymentSuccessPage() {
   const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState("");
 
-  // Extract query params: courseId and sessionId
   const searchParams = new URLSearchParams(location.search);
   const courseId = searchParams.get("courseId");
   const sessionId = searchParams.get("sessionId");

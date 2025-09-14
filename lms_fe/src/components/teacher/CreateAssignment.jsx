@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import api from "../../api"; // Make sure your axios instance is correctly configured
+import api from "../../api";
 import "./CreateAssignment.css";
 
 function CreateAssignment({ onAssignmentCreated }) {
@@ -40,14 +40,12 @@ function CreateAssignment({ onAssignmentCreated }) {
         config
       );
 
-      // Success if status 2xx
       if (res.status >= 200 && res.status < 300) {
         setSuccess("Assignment created successfully!");
         setTitle("");
         setDescription("");
         setDueDate("");
 
-        // Optional: notify parent component to refresh the assignment list
         if (onAssignmentCreated) {
           onAssignmentCreated(res.data);
         }
@@ -56,7 +54,6 @@ function CreateAssignment({ onAssignmentCreated }) {
       }
     } catch (err) {
       console.error(err.response?.data || err);
-      // Handle cases where Axios throws even on 201 Created
       if (err.response && err.response.status === 201) {
         setSuccess("Assignment created successfully!");
         setTitle("");

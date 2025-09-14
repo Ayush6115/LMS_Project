@@ -9,7 +9,6 @@ namespace lms_be.Services
         Assignment CreateAssignment(int teacherId, int courseId, AssignmentDto dto);
         List<Assignment> GetAssignmentsByCourse(int teacherId, int courseId);
 
-        // Updated to match controller
         Assignment? UpdateAssignment(int teacherId, int courseId, int assignmentId, AssignmentDto dto);
         bool DeleteAssignment(int teacherId, int courseId, int assignmentId);
     }

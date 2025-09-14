@@ -5,7 +5,7 @@ namespace lms_be.DTOs
 {
     public class QuizQuestionDto
     {
-        public int Id { get; set; }  // Add this for mapping submissions
+        public int Id { get; set; }
 
         [Required]
         public string QuestionText { get; set; } = string.Empty;

@@ -19,7 +19,6 @@ namespace lms_be.Services
 
         public Assignment CreateAssignment(int teacherId, int courseId, AssignmentDto dto)
         {
-            // Ensure teacher owns the course
             var course = _context.Courses.FirstOrDefault(c => c.Id == courseId && c.TeacherId == teacherId);
             if (course == null) return null;
 

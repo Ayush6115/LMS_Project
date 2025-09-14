@@ -9,7 +9,6 @@ namespace lms_be.Services
         Quiz CreateQuiz(int teacherId, int courseId, QuizDto dto);
         List<Quiz> GetQuizzesByCourse(int teacherId, int courseId);
 
-        // Updated to match controller
         Quiz? UpdateQuiz(int teacherId, int courseId, int quizId, QuizDto dto);
         bool DeleteQuiz(int teacherId, int courseId, int quizId);
     }
