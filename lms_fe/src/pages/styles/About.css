@@ -1,0 +1,143 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem 1rem;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-about {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 12px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: slideUp 1s ease-out;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  animation: slideUp 1s ease-out 0.3s;
+}
+
+.hero-desc {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  animation: slideUp 1s ease-out 0.6s;
+}
+
+/* Values Section */
+.values {
+  text-align: center;
+}
+
+.values h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.value-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.value-card {
+  background: #f5f5f5;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  width: 180px;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Team Section */
+.team {
+  text-align: center;
+}
+
+.team h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.team-cards .card {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 180px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.team-cards .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+
+.team-cards .card h4 {
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+.team-cards .card p {
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes slideUp {
+  from {opacity: 0; transform: translateY(15px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+  .value-cards, .team-cards {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}

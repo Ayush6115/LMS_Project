@@ -1,0 +1,86 @@
+.interactive-dashboard {
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #334e68;
+}
+
+.widgets-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.widget {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.widget h3 {
+  margin-bottom: 15px;
+  color: #102a43;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widget li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e1e8ee;
+  color: #334e68;
+}
+
+.widget li:last-child {
+  border-bottom: none;
+}
+
+.empty {
+  color: #627d98;
+  font-style: italic;
+}
+
+/* Mouse-follow blobs */
+.follower {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  background: rgba(102, 126, 234, 0.2);
+  transition: transform 0.1s;
+  z-index: 999;
+}
+
+.follower.blob {
+  width: 50px;
+  height: 50px;
+}
+
+.follower.blob.small {
+  width: 30px;
+  height: 30px;
+}
+
+.follower.blob.tiny {
+  width: 20px;
+  height: 20px;
+}

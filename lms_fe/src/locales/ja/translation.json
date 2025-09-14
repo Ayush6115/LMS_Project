@@ -1,0 +1,256 @@
+{
+  "_comment_nav": "ナビゲーションラベル",
+  "nav": {
+    "home": "ホーム",
+    "login": "ログイン",
+    "signup": "サインアップ",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "dashboard": "ダッシュボード",
+    "courses": "コース",
+    "myCourses": "マイコース",
+    "createCourse": "コース作成",
+    "createAssignment": "課題作成",
+    "createQuiz": "クイズ作成",
+    "manageUsers": "ユーザー管理",
+    "createUser": "ユーザー作成",
+    "logout": "ログアウト"
+  },
+
+  "_comment_home": "ホームページ",
+  "home": {
+    "heroTitle": "いつでもどこでも学べます",
+    "heroSubtitle": "コースにアクセスし、進捗を確認し、修了証を取得できます",
+    "exploreBtn": "コースを見る",
+    "whyChoose": "なぜ私たちのLMSを選ぶのか？",
+    "feature1": {
+      "title": "豊富なコース",
+      "desc": "学生や専門家向けの幅広いコースを提供。"
+    },
+    "feature2": {
+      "title": "経験豊富な先生",
+      "desc": "業界経験豊富な先生から学べます。"
+    },
+    "feature3": {
+      "title": "証明書",
+      "desc": "学習成果を証明する修了証を取得。"
+    },
+    "ctaTitle": "学習を始める準備はできましたか？",
+    "ctaBtn": "今すぐ登録"
+  },
+
+  "_comment_login_signup": "ログインとサインアップページ",
+  "login": {
+    "title": "ログイン",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "submitBtn": "ログイン",
+    "success": "ログイン成功！",
+    "failed": "ログイン失敗"
+  },
+  "signup": {
+    "title": "アカウント作成",
+    "namePlaceholder": "氏名",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "submitBtn": "サインアップ",
+    "success": "登録成功！",
+    "failed": "登録失敗"
+  },
+
+  "_comment_about": "会社概要ページ",
+  "about": {
+    "heroTitle": "私たちのLMSについて",
+    "heroSubtitle": "いつでもどこでも簡単に学習できます",
+    "heroDesc": "私たちのLMSは学習者を専門家の講師とつなぎ、インタラクティブなコース、進捗追跡、修了証に重点を置いています。",
+    "valuesTitle": "私たちの価値",
+    "values": {
+      "accessible": "どこからでもアクセス可能",
+      "interactive": "インタラクティブなコース",
+      "certified": "認定された進捗",
+      "support": "専用サポート"
+    },
+    "teamTitle": "チーム紹介",
+    "team": {
+      "founder": "創設者 & CEO",
+      "instructor": "リードインストラクター",
+      "developer": "コース開発者",
+      "manager": "コミュニティマネージャー"
+    }
+  },
+
+  "_comment_contact": "お問い合わせページ",
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問がありますか？私たちがサポートします。",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "button": "送信"
+    },
+    "info": {
+      "title": "会社情報",
+      "email": "メール",
+      "phone": "電話",
+      "address": "住所"
+    }
+  },
+
+  "_comment_course_payment": "コース支払い",
+  "coursePayment": {
+    "loading": "読み込み中...",
+    "notFound": "コースが見つかりません。",
+    "fetchError": "コース情報の取得に失敗しました",
+    "paymentError": "支払いの開始に失敗しました",
+    "payFor": "支払い対象",
+    "payEnroll": "支払って登録する",
+    "cancel": "キャンセル"
+  },
+  "paymentSuccess": {
+    "loading": "読み込み中...",
+    "status": "支払い状況",
+    "successMessage": "支払い成功！今、登録されました。",
+    "failureMessage": "支払いに失敗したか、登録を確認できませんでした。",
+    "goToCourses": "マイコースへ"
+  },
+
+  "_comment_student": "学生関連",
+  "studentCourses": {
+    "loading": "読み込み中...",
+    "allCourses": "すべてのコース",
+    "enrolledCourses": "登録済みコース",
+    "noCourses": "表示するコースはありません。",
+    "enrolled": "登録済み",
+    "payEnroll": "支払い と 登録",
+    "fetchError": "コースの取得に失敗しました"
+  },
+"studentCourseDetail": {
+  "loading": "読み込み中...",
+  "load_error": "コース情報の取得に失敗しました。",
+  "submit_error": "提出に失敗しました。",
+  "no_course": "コースが見つかりません。",
+  "course_content": "コース内容",
+  "assignments": "課題",
+  "quizzes": "クイズ",
+  "write_submission": "提出内容を入力してください...",
+  "submit_assignment": "課題を提出",
+  "no_assignments": "まだ課題はありません。",
+  "submit_quiz": "クイズを提出",
+  "score": "スコア",
+  "no_quizzes": "まだクイズはありません。",
+  "quiz_submitted": "クイズを提出しました！あなたのスコア: {{score}}"
+},
+  "studentWidgets": {
+    "welcome": "ようこそ、学生さん！",
+    "yourCourses": "あなたのコース",
+    "assignments": "課題",
+    "notifications": "通知",
+    "due": "締め切り"
+  },
+
+  "_comment_teacher": "先生関連",
+  "myCourses": {
+    "title": "私のコース",
+    "loginRequired": "教師としてログインする必要があります。",
+    "fetchFailed": "コースの取得に失敗しました",
+    "updateFailed": "コースの更新に失敗しました",
+    "deleteFailed": "コースの削除に失敗しました",
+    "confirmDelete": "このコースを削除してもよろしいですか？",
+    "loading": "読み込み中...",
+    "empty": "まだ作成されたコースはありません。",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "edit": "編集",
+    "delete": "削除",
+    "thumbnailURL": "サムネイルURL"
+  },
+  "teacherWidgets": {
+    "welcome": "先生、ようこそ！",
+    "classes": "あなたのクラス",
+    "assignments": "課題",
+    "messages": "メッセージ",
+    "fetchError": "教師データの取得中にエラーが発生しました："
+  },
+  "createCourse": {
+    "title": "コース作成",
+    "courseTitle": "コース名",
+    "thumbnailURL": "サムネイルURL",
+    "shortDescription": "簡単な説明",
+    "start": "開始",
+    "end": "終了",
+    "creating": "作成中...",
+    "createCourse": "コースを作成",
+    "enterTitle": "タイトルを入力してください。",
+    "setDates": "開始日と終了日を設定してください。",
+    "startAfterEnd": "開始日は終了日より後にできません。",
+    "invalidThumbnail": "サムネイルのURLを正しく入力してください。",
+    "loginRequired": "教師としてログインする必要があります。",
+    "success": "コースが正常に作成されました！",
+    "failed": "コースの作成に失敗しました"
+  },
+  "assignment": {
+    "createTitle": "課題作成",
+    "title": "タイトル",
+    "description": "説明",
+    "dueDate": "締切日",
+    "createBtn": "課題を作成",
+    "createSuccess": "課題が正常に作成されました！",
+    "createFailed": "課題の作成に失敗しました"
+  },
+  "quiz": {
+    "createTitle": "クイズを作成",
+    "title": "クイズのタイトル",
+    "titlePlaceholder": "クイズのタイトルを入力してください",
+    "question": "質問",
+    "questionPlaceholder": "質問内容を入力してください",
+    "option": "選択肢",
+    "correctAnswer": "正解",
+    "addQuestion": "質問を追加",
+    "createBtn": "クイズを作成",
+    "createSuccess": "クイズが正常に作成されました！",
+    "createFailed": "クイズの作成に失敗しました。もう一度お試しください。"
+  },
+
+  "_comment_admin": "管理者関連",
+  "adminWidgets": {
+    "welcome": "ようこそ、管理者さん！",
+    "totalUsers": "ユーザー総数",
+    "loading": "ダッシュボードを読み込み中...",
+    "fetchError": "ユーザー情報の取得に失敗しました。"
+  },
+  "createUser": {
+    "title": "ユーザー作成",
+    "namePlaceholder": "フルネーム",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "roleTeacher": "教師",
+    "roleAdmin": "管理者",
+    "createButton": "ユーザー作成",
+    "success": "ユーザーが作成されました: {{name}}",
+    "failed": "ユーザー作成に失敗しました"
+  },
+  "users": {
+    "title": "ユーザー管理",
+    "loginRequired": "まず管理者としてログインしてください！",
+    "fetchFailed": "ユーザーの取得に失敗しました。管理者としてログインしているか確認してください。",
+    "confirmDelete": "このユーザーを完全に削除してもよろしいですか？",
+    "deleteSuccess": "ユーザーが正常に削除されました！",
+    "deleteFailed": "ユーザーの削除に失敗しました",
+    "loading": "ユーザーを読み込み中...",
+    "noUsers": "ユーザーが見つかりません",
+    "deleteButton": "削除",
+    "roles": {
+      "all": "すべてのユーザー",
+      "student": "学生",
+      "teacher": "教師",
+      "admin": "管理者"
+    },
+    "table": {
+      "name": "名前",
+      "email": "メール",
+      "role": "役割",
+      "actions": "操作"
+    }
+  }
+}

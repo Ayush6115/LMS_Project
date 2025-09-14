@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wbqIEqJIy/E=",
+  "success": true,
+  "projectFilePath": "E:\\lms_be\\AdminHasher\\AdminHasher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayush\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

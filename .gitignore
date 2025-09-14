@@ -1,0 +1,20 @@
+# Frontend (React)
+lms_fe/node_modules/
+lms_fe/build/
+lms_fe/.env
+
+# Backend (C#)
+lms_be/bin/
+lms_be/obj/
+lms_be/*.user
+lms_be/*.suo
+lms_be/*.vspscc
+lms_be/appsettings.*.json   # ignore if it has secrets like Stripe key
+lms_be/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore backend appsettings with secrets
+lms_be/**/appsettings.json

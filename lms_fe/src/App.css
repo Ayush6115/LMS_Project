@@ -1,0 +1,17 @@
+/* Make the app full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flex layout: header + content + footer */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content grows to push footer down */
+.content {
+  flex: 1;
+}

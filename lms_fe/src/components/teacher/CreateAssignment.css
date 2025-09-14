@@ -1,0 +1,119 @@
+/* Container */
+.create-assignment {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.create-assignment:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.create-assignment h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Form Groups */
+.create-assignment .form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-assignment label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+/* Inputs and Textarea */
+.create-assignment input,
+.create-assignment textarea {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.create-assignment input:focus,
+.create-assignment textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
+}
+
+/* Textarea */
+.create-assignment textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Button */
+.create-assignment button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.create-assignment button:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.create-assignment button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Messages */
+.create-assignment p.success {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #16a34a; /* green */
+  background-color: #d1fae5;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.create-assignment p.error {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #b91c1c; /* red */
+  background-color: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .create-assignment {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .create-assignment h2 {
+    font-size: 1.5rem;
+  }
+}
